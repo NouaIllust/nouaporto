@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Portofolio NOUA</title>
+  <link rel="icon" href="pict/icon.png" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+
+
+<!-- PRELOADER -->
+<div id="loader">
+  <div class="stars">
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+  </div>
+  <p>“Painting is just another way of keeping a diary.” ~Pablo Picasso</p>
+</div>
+
+
+
+<!-- NAVBAR SECTION -->
+<nav class="navbar">
+  <div class="navbar-logo">
+    <h1>Noua's Portfolio</h1>
+  </div>
+</div>
+
+<!-- Hamburger icon - NAVBAR SECTION -->
+<button class="hamburger" id="hamburger-btn" aria-label="Menu">
+  <span></span><span></span><span></span>
+</button>
+
+<!-- Nav Links - NAVBAR SECTION -->
+<ul class="navbar-links" id="navbar-links">
+  <li><a href="#home" data-i18n="nav_home">Home</a></li>
+  <li><a href="#about" data-i18n="nav_about">About</a></li>
+  <li><a href="#gallery" data-i18n="nav_galery">Gallery</a></li>
+  <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+  <li><a class="lang-switcher" onclick="setLanguage('en')">EN</a></li>
+  <li><a class="lang-switcher" onclick="setLanguage('id')">ID</a></li>
+</ul>
+</nav>
+
+
+
+<!-- HERO SECTION -->
+<div class="hero fade-item" id="home">
+  <div class="hero-content text-overlay">
+    <h1 data-i18n="hero_title">Welcome to my portfolio</h1>
+    <p data-i18n="hero_capt">Illustrations that tell stories through the sky and feelings 🌌</p>
+    <a href="#gallery" class="hero-button" data-i18n="hero_btn">View Gallery</a>
+  </div>
+</div>
+
+
+
+<!-- ABOUT SECTION -->
+<section id="about" class="fade-item">
+  <h2 data-i18n="about_title">About Me</h2>
+  <p data-i18n="about_text">
+    Hello, friends, I'm Noua🖐🏻. I am a passionate drawer in the field of visual illustration. On this page, I will share my personal work and some commission projects that I have done with my clients. So please take a look and thank you for visiting :D
+</p>
+</section>
+
+
+
+<!-- GALERI SECTION -->
+<section id="gallery" class="gallery-section fade-item">
+  <h2 data-i18n="galeri_title">Gallery</h2>
+  <br>
+  <div class="gallery-tabs">
+    <button class="tab-btn active" data-target="personal">Personal Artwork</button>
+    <button class="tab-btn" data-target="commission">Commission Artwork</button>
+  </div>
+
+
+
+
+<!-- PERSONAL GRID SECTION - GALERI SECTION -->
+  <div class="masonry-grid personal-grid active">
+    <!-- Masukkan gambar-gambar personal artwork -->
+    <div class="gallery">
+      <div class="image-container">
+        <img src="pict/PW/PW01.jpg" 
+        alt="Ilustrasi 1"
+        class="fade-item"
+        data-full="pict/PW/PW01.jpg"
+        data-description="ART 2024">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/PW/PW02.jpg" 
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/PW/PW02.jpg"
+        data-description="ART 2024">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/PW/PW03.jpg" 
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/PW/PW03.jpg"
+        data-description="ART 2025">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/PW/PW04.jpg" 
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/PW/PW04.jpg"
+        data-description="ART 2025">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/PW/PW05.jpg" 
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/PW/PW05.jpg"
+        data-description="ART 2025">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/PW/PW06.jpg" 
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/PW/PW06.jpg"
+        data-description="ART 2025">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/PW/PW07.jpg" 
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/PW/PW07.jpg"
+        data-description="ART 2024">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/PW/PW08.jpg" 
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/PW/PW08.jpg"
+        data-description="ART 2025">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/PW/PW09.jpg" 
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/PW/PW09.jpg"
+        data-description="ART 2025">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/PW/PW10.jpg" 
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/PW/PW10.jpg"
+        data-description="ART 2024">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/PW/PW11.jpg" 
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/PW/PW11.jpg"
+        data-description="ART 2025">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/PW/PW12.jpg" 
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/PW/PW12.jpg"
+        data-description="ART 2025">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/PW/PW13.jpg" 
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/PW/PW13.jpg"
+        data-description="ART 2025">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/PW/PW14.jpg" 
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/PW/PW14.jpg"
+        data-description="ART 2025">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/PW/PW15.jpg" 
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/PW/PW15.jpg"
+        data-description="ART 2024">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/PW/PW16.jpg" 
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/PW/PW16.jpg"
+        data-description="ART 2023">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/PW/PW17.jpg" 
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/PW/PW17.jpg"
+        data-description="ART 2023">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/PW/PW18.jpg" 
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/PW/PW18.jpg"
+        data-description="ART 2024">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/PW/PW19.jpg" 
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/PW/PW19.jpg"
+        data-description="ART 2023">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/PW/PW20.jpg" 
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/PW/PW20.jpg"
+        data-description="ART 2025">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+<!-- COMMISION GRID SECTION - GALERI SECTION -->
+  <div class="masonry-grid commission-grid">
+    <!-- Masukkan gambar-gambar commission artwork -->
+    <div class="gallery">
+      <div class="image-container">
+        <img src="pict/CM/cm01.jpg" 
+        alt="Ilustrasi 1"
+        class="fade-item"
+        data-full="pict/CM/cm01.jpg" 
+        data-description="COMMISSION 2025">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/CM/cm02.jpg"  
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/CM/cm02.jpg" 
+        data-description="COMMISSION 2023">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/CM/cm03.jpg" 
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/CM/cm03.jpg" 
+        data-description="COMMISSION 2023">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/CM/cm04.jpg" 
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/CM/cm04.jpg" 
+        data-description="COMMISSION 2023">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/CM/cm05.jpg"  
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/CM/cm05.jpg" 
+        data-description="COMMISSION 2024">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/CM/cm06.jpg"  
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/CM/cm06.jpg" 
+        data-description="COMMISSION 2024">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/CM/cm07.jpg" 
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/CM/cm07.jpg" 
+        data-description="COMMISSION 2024">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/CM/cm08.jpg" 
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/CM/cm08.jpg" 
+        data-description="COMMISSION 2024">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/CM/cm09.jpg" 
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/CM/cm09.jpg" 
+        data-description="COMMISSION 2024">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/CM/cm10.jpg" 
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/CM/cm10.jpg" 
+        data-description="COMMISSION 2024">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/CM/cm11.jpg" 
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/CM/cm11.jpg" 
+        data-description="COMMISSION 2025">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/CM/cm12.jpg" 
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/CM/cm12.jpg" 
+        data-description="COMMISSION 2025">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/CM/cm13.jpg" 
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/CM/cm13.jpg" 
+        data-description="COMMISSION 2023">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/CM/cm14.jpg" 
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/CM/cm14.jpg" 
+        data-description="COMMISSION 2025">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/CM/cm15.jpg" 
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/CM/cm15.jpg" 
+        data-description="COMMISSION 2025">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+      <div class="image-container">
+        <img src="pict/CM/cm16.jpg" 
+        alt="Ilustrasi 2"
+        class="fade-item"
+        data-full="pict/CM/cm16.jpg" 
+        data-description="COMMISSION 2025">
+        <span class="tooltip">🔍Zoom in</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- MODAL -->
+<div id="imageModal" class="modal">
+  <span class="modal-close">&times;</span>
+  <div class="modal-content">
+    <img id="modalImage" src="" alt="">
+    <div class="modal-description" id="modalDescription"></div>
+  </div>
+</div>
+
+
+
+<!-- KONTAK SECTION -->
+<section id="contact" class="fade-item">
+  <h2 data-i18n="cont_title">Contact</h2>
+  <p data-i18n="cont_desc">Want to collaborate or order illustrations? Contact me via:</p>
+  <div class="social-icons">
+    <a href="https://twitter.com/nouaillust" target="_blank" aria-label="Twitter">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a href="mailto:noua.illust@gmail.com" aria-label="Email">
+      <i class="fas fa-envelope"></i>
+    </a>
+  </div>
+  <p data-i18n="cont_vgen">Also available commission at:</p>
+  <div class="custom-social-icons">
+    <a href="https://vgen.co/noua" target="_blank" aria-label="vgen">
+      <img src="pict/vgenlogo.png" alt="VGEN LOGO">
+    </a>
+  </di>
+</section>
+
+<footer>
+  &copy; 2025 NOUA.
+</footer>
+</body>
+
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="js_lang.js"></script>
+
+</html>
